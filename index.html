@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/body.css" />
+    <link rel="stylesheet" href="CSS/button.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/navigation.css" />
+    <link rel="stylesheet" href="CSS/table.css" />
+    <script defer src="js/script.js"></script>
+    <title>Strona</title>
+  </head>
+  <body class="body">
+  <header>
+    <h1 class="header">Pizza Marcin</h1>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li class="navigation__item"><a class="navigation__link" href="#">O nas</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Menu</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <section>
+        <h2 class="header--advertisement">Daj się skusić na najlepszą pizze w mieście!</h2>
+      </section>
+      <section>
+        <table class="table">
+          <caption class="table__caption">Menu:</caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__item table__item--header ">Nazwa</th>
+              <th class="table__item table__item--header ">Składniki</th>
+              <th class="table__item table__item--header ">Cena</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <td class="table__item">Margherita</td>
+              <td class="table__item">sos pomidorowy, ser</td>
+              <td class="table__item">25zł</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__item">Vesuvio</td>
+              <td class="table__item">sos pomidorowy, ser, szynka</td>
+              <td class="table__item">27zł</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__item">Caciatora</td>
+              <td class="table__item">sos pomidorowy, ser, salami, cebula</td>
+              <td class="table__item">29zł</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__item">Amerykańska</td>
+              <td class="table__item">sos pomidorowy, ser, mięso kebab, frytki</td>
+              <td class="table__item">38zł</td>
+            </tr>  
+          </tbody>
+          <tfoot>
+            <tr class="table__row">
+              <td colspan="3" class="table__item">Za pudełko + 2zł</td>
+            </tr>
+          </tfoot> 
+        </table>
+      </section>
+      <section>
+        <button class="button js-button">Zmien wyglad przycisku</button>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <h4 class="body__footer">&copy; Marcin Antosiewicz</h4>
+  </footer>
+  </body>
+</html>

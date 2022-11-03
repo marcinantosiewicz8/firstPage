@@ -1,0 +1,12 @@
+.button{
+    min-width: 30%;
+    min-height: 100px;
+    margin: 20px 20px;
+}
+
+.button__special{
+    border-radius: 50px;
+    outline: 4px double rgba(52, 18, 87, 0.723);
+    box-shadow: inset 0px 0px 20px 5px #08f5e9;
+    font-size: 40px;
+}
